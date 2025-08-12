@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import LeftBar from "./LeftBar";
+import { IoSendSharp } from "react-icons/io5";
 
 import "./Dashboard.css"; 
 import placeholder from "../Assets/Placeholder.png";
@@ -43,26 +44,37 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-              <div className="quick-transfer">
+              <div className="card-holder">
                 <h2>Quick Transfer</h2>
-                <div className="transfer-options">
+                <div className="my-card">
                   <div className="shortcut-profile">
-                    <img src={placeholder} alt="User 1" />
-                    <img src={placeholder} alt="User 2" />
-                    <img src={placeholder} alt="User 3" />
-                    <button className="add-user-btn"><FaPlus className="add-btn"/></button>
+                    <div className="user">
+                      <img src={placeholder} alt="User 1" />
+                      <p className="username">Tony</p>
+                    </div>
+                    <div className="user">
+                      <img src={placeholder} alt="User 1" />
+                      <p className="username">Karan</p>
+                    </div>
+                    <div className="user">
+                      <img src={placeholder} alt="User 1" />
+                      <p className="username">Jordan</p>
+                    </div>
+                    <div className="user add-user-btn">
+                      <FaPlus className="add-btn" />
+                    </div>
                   </div>
                   <div className="amount-input">
-                    <label htmlFor="amount">Amount</label>
+                    <label htmlFor="amount" id="amount">Amount</label>
                     <input
                       type="text"
                       placeholder="$ 100"
                       value={amount}
                       id="amount"
-                      onChange={e => setAmount(e.target.value)}
+                      onChange={(e) => setAmount(e.target.value)}
                     />
                   </div>
-                  <button className="transfer-btn">Transfer </button>
+                  <button className="transfer-btn">Transfer <IoSendSharp /> </button>
                 </div>
               </div>
             </div>
