@@ -1,0 +1,49 @@
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    border-right: 2px solid rgb(245, 239, 252);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.icons {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+}
+.icons .icon {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    padding: 28px 0;
+    color: #d1d1d1
+    
+}
+
+.icons a:hover {
+    cursor: pointer;
+    border-right: 8px solid rgb(79, 69, 182);
+}
+
+.icons .icon:hover {
+    cursor: pointer;
+    color: rgb(79, 69, 182);
+}

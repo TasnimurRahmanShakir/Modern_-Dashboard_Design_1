@@ -1,0 +1,159 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid rgb(245, 239, 252);
+    margin: 0 auto;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    padding-left: 10px;
+    background-color: rgb(245, 239, 252);
+    border-radius: 20px;
+    width: 400px;
+    height: 60px;
+
+}
+
+.search-icon {
+    color: rgb(79, 69, 182);
+    padding-left: 32px;
+    width: 24px;
+    height: 24px;
+}
+
+.search input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.other-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.custom-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.flag-icon {
+    width: 24;
+    height: 24;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.language-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
+.css-13cymwt-control,
+.css-13cymwt-control:focus,
+.css-13cymwt-control:hover,
+.css-13cymwt-control:active {
+    width: 215px !important;
+    height: 60px !important;
+    min-height: 60px !important;
+    border-radius: 20px !important;
+    border: 1px solid rgb(230, 230, 230) !important;
+    box-shadow: none !important;
+    transition: none !important;
+    box-sizing: border-box !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 20px;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-item .badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(79, 69, 182);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    line-height: 1;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 189px;
+    height: 68px;
+}
+
+.profile-link img{
+    width: 60px;
+    height: 60px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 105px;
+    height: 68px;
+}
+
+.username{
+    font-size: 18px;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+}
+.role {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(183, 177, 194)
+}
+
